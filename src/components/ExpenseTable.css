@@ -1,0 +1,32 @@
+table, th, td {
+    border: 1px solid #68C6C8;
+  }
+
+table {
+    width: 100%;
+    font-weight: bolder;
+}
+
+.tableWrapper {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonCell {
+    text-align: center;
+}
+
+#deleteButton {
+    align-self: center;
+    height: 20px;
+    background-color: #68C6C8;
+    border-radius: 2px;
+    border: none;
+    font-weight: bolder;
+    outline: none;
+    cursor: pointer;
+    color: black;
+}

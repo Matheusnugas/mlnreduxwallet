@@ -1,0 +1,82 @@
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  #18181B;
+    color: #fff;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    gap: 15px;
+    color: #68C6C8;
+}
+
+h1 img {
+    margin-top: 20px;
+}
+
+.formWrapper {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.formWrapper form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formWrapper form input {
+    border-style: none;
+    background-color: #1D1C21;
+    width: 300px;
+    height: 6px;
+    outline: none;
+    border-bottom: 1px solid;
+    border-color: #68C6C8;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.formWrapper form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.formWrapper img {
+    width: 400px;
+}
+
+.formButton {
+    margin-top: 20px;
+    align-self: center;
+    width: 30%;
+    height: 30px;
+    background-color: #68C6C8;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+    outline: none;
+    cursor: pointer;
+    color: black;
+}
+
+::selection {
+    color: white;
+    background: #68C6C8;
+  }

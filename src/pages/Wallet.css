@@ -1,0 +1,15 @@
+* {
+    background-color: #18181B;
+    color: white;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.title img {
+    width: 50px;
+}

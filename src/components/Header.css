@@ -1,0 +1,14 @@
+.headerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailField {
+    margin-right: 100px;
+    font-weight: bolder;
+}
+
+.totalField {
+    font-weight: bolder;
+}

@@ -1,0 +1,76 @@
+.moneyForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.moneyForm input { 
+        border-style: none;
+        background-color: #1D1C21;
+        width: 150px;
+        height: 25px;
+        outline: none;
+        border-bottom: 1px solid;
+        border-color: #68C6C8;
+        border-radius: 8px;
+        font-family: Roboto, sans-serif;
+        font-weight: bolder;
+        color: #fff;
+        font-size: 1em;
+}
+
+
+
+.moneyForm select { 
+    border-style: none;
+    background-color: #1D1C21;
+    width: 120px;
+    height: 25px;
+    outline: none;
+    border-bottom: 1px solid;
+    border-color: #68C6C8;
+    /* padding: 15px; */
+    border-radius: 8px;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 1em;
+}
+
+#submitExpense {
+    align-self: center;
+    height: 30px;
+    background-color: #68C6C8;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+    outline: none;
+    cursor: pointer;
+    color: black;
+}
+
+.moneyForm label {
+    font-weight: bolder;
+    margin-right: 5px
+}
+
+#metodo {
+    width: 170px;
+}
+
+#currency {
+    width: 70px;
+}
+
+#category {
+    width: 130px;
+}
+
+#moneyInput {
+    width: 90px
+}
+
+#descricao {
+    width: 120px;
+}
