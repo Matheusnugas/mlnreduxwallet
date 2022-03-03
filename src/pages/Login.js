@@ -11,12 +11,11 @@ class Login extends React.Component {
   constructor() {
     super();
     this.state = {
-      email: '',
-      password: '',
-      buttonDisabled: true,
+      email: 'test@test.com',
+      password: 'test123',
     };
     this.handleChange = this.handleChange.bind(this);
-    this.validateButton = this.validateButton.bind(this);
+    // this.validateButton = this.validateButton.bind(this);
     this.buttonClick = this.buttonClick.bind(this);
   }
 
@@ -29,17 +28,17 @@ class Login extends React.Component {
   }
   // Funcao para fazer a validação do botão
 
-  validateButton() {
-    let buttonState = true;
-    const minLength = 6;
-    const { email, password } = this.state;
-    if (email.includes('@') && email.includes('.com') && password.length >= minLength) {
-      buttonState = false;
-    } else {
-      buttonState = true;
-    }
-    this.setState({ buttonDisabled: buttonState });
-  }
+  // validateButton() {
+  //   let buttonState = true;
+  //   const minLength = 6;
+  //   const { email, password } = this.state;
+  //   if (email.includes('@') && email.includes('.com') && password.length >= minLength) {
+  //     buttonState = false;
+  //   } else {
+  //     buttonState = true;
+  //   }
+  //   this.setState({ buttonDisabled: buttonState });
+  // }
 
   // Função para fazer a mudança da rota ao clicar no botão. Funcao essa para ser chamada em buttonClick();
   routeChange() {
@@ -57,7 +56,7 @@ class Login extends React.Component {
   }
 
   render() {
-    const { email, password, buttonDisabled } = this.state;
+    const { email, password } = this.state;
     return (
       <div className="loginPage">
         <div className="loginWrapper">
@@ -91,7 +90,6 @@ class Login extends React.Component {
               <button
                 type="button"
                 className="formButton"
-                disabled={ buttonDisabled }
                 onClick={ this.buttonClick }
               >
                 Entrar
