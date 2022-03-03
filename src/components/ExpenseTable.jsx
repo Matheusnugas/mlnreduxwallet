@@ -20,7 +20,7 @@ class ExpenseTable extends React.Component {
               <th>Câmbio utilizado</th>
               <th>Valor convertido</th>
               <th>Moeda de conversão</th>
-              <th>Editar/Excluir</th>
+              <th>Excluir</th>
             </tr>
             {expenses.map((expense) => (
               <tr key={ expense.id }>
